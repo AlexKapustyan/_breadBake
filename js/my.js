@@ -8,5 +8,10 @@ $(document).ready(function () {
 		$('.navbar-collapse').removeClass('show');
 		$('.navbar').removeClass('darck');
 	});
+
+	$('header .navbar-brand').click(function () { //===remove the background and hide the drop-down menu by clicking on the navigation link
+		$('.navbar-collapse').removeClass('show');
+		$('.navbar').removeClass('darck');
+	});
 });
 
