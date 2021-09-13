@@ -102,6 +102,9 @@
   #s3 .carousel .carousel-control-next {
     right: -24px;
   }
+  #s3 .carousel .carousel-control-prev {
+		left: -23px;
+	}
 }
 
 @media (max-width: 770px) {
