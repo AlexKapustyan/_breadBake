@@ -28,9 +28,9 @@ header .navbar-light .navbar-brand {
   letter-spacing: 0.125rem;
 }
 
-.darck {
-		background-color: black;
-	}
+header .darck {
+  background-color: black;
+}
 
 header .navbar-collapse {
   -webkit-box-pack: end;
