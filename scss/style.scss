@@ -8,7 +8,7 @@ html {
 	height: 100%;
 	font-family: "Nunito Regular", sans-serif;
 	color: black;
-	background-color: black;
+	background-color: rgb(0, 0, 0);
 }
 
 header {
@@ -31,7 +31,7 @@ header {
 	}
 
 	.darck {
-		background-color: black;
+		background-color: rgba(0, 0, 0, 0.76);
 	}
 
 	.navbar-collapse {
@@ -57,7 +57,7 @@ header {
 
 	.nav-item {
 		font-size: 1.125rem;
-	}
+	}	
 
 	.navbar-light .navbar-nav .nav-link {
 		color: white;
