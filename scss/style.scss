@@ -30,6 +30,10 @@ header {
 		letter-spacing: 0.125rem;
 	}
 
+	.darck {
+		background-color: black;
+	}
+
 	.navbar-collapse {
 		justify-content: flex-end;
 	}
@@ -73,10 +77,6 @@ header {
 	.collapse.show {
 		display: block;
 	}
-}
-
-.show {
-	background-color: black;
 }
 
 main {
@@ -182,7 +182,7 @@ main {
 	}
 
 	div a img {
-		margin-top: 10px;
+		margin-top: 0.625rem;
 	}
 }
 
@@ -203,7 +203,7 @@ main {
 
 	.carousel {
 		position: relative;
-		max-width: 843px;
+		max-width: 52.6875rem;
 		margin: auto;
 		max-height: 18.25rem;
 
@@ -212,7 +212,7 @@ main {
 			border: 0;
 			background: none;
 			justify-content: flex-start;
-			left: -42px;
+			left: -2.625rem;
 		}
 
 		.carousel-control-next {
@@ -220,7 +220,7 @@ main {
 			border: 0;
 			background: none;
 			justify-content: flex-end;
-			right: -60px;
+			right: -3.75rem;
 		}
 	}
 
@@ -250,7 +250,7 @@ main {
 	}
 
 	.card-img-top {
-		max-width: 110px;
+		max-width: 6.875rem;
 		margin: auto;
 	}
 
@@ -270,23 +270,23 @@ main {
 
 	.card-text {
 		margin-bottom: 0.75rem;
-		font-size: 10px;
+		font-size: 0.625rem;
 	}
 
 	.card-text:last-child {
 		font-family: "Open Sans SemiBold";
-		font-size: 16px;
+		font-size: 1rem;
 		margin-bottom: 0;
 	}
 
 	.text {
 		text-align: center;
-		margin-top: 46px;
+		margin-top: 2.875rem;
 		margin-bottom: 0;
 	}
 
 	.text:last-child {
-		margin-top: 11px;
+		margin-top: 0.6875rem;
 	}
 
 	.but {
@@ -452,7 +452,7 @@ main {
 		.form-check-input {
 			width: 1.25rem;
 			height: 1.25rem;
-			margin-top: 2px;
+			margin-top: 0.125rem;
 			border: 1px solid black;
 			-webkit-appearance: none;
 		}
@@ -483,8 +483,8 @@ main {
 		max-width: 100%;
 
 		.wrapper {
-			width: 500px;
-			height: 540px;
+			width: 31.25rem;
+			height: 33.75rem;
 			background-image: url("../img/CouponOutline.png");
 			background-repeat: no-repeat;
 			background-position: center center;
@@ -560,9 +560,9 @@ footer {
 	.col-8 {
 		p a {
 			font-family: "Kaushan Script";
-			font-size: 36px;
-			letter-spacing: 2px;
-			margin-bottom: 24px;
+			font-size: 2.25rem;
+			letter-spacing: 0.125rem;
+			margin-bottom: 1.5rem;
 			color: white;
 			text-decoration: none;
 		}
@@ -570,8 +570,8 @@ footer {
 		p:last-child {
 			font-family: "Open Sans";
 			font-weight: 400;
-			font-size: 12px;
-			letter-spacing: 0.2px;
+			font-size: 0.75rem;
+			letter-spacing: 0.0125rem;
 		}
 	}
 
@@ -579,15 +579,15 @@ footer {
 		p {
 			font-family: "Open Sans";
 			font-weight: 600;
-			font-size: 16px;
-			margin-bottom: 20px;
+			font-size: 1rem;
+			margin-bottom: 1.25rem;
 		}
 
 		p:nth-child(2) {
 			font-family: "Open Sans";
 			font-weight: 400;
-			font-size: 14px;
-			margin-bottom: 10px;
+			font-size: 0.875rem;
+			margin-bottom: 0.625rem;
 		}
 
 		div:nth-child(3) {
@@ -603,8 +603,8 @@ footer {
 		a {
 			font-family: "Open Sans";
 			font-weight: 400;
-			font-size: 14px;
-			margin-bottom: 10px;
+			font-size: 0.875rem;
+			margin-bottom: 0.625rem;
 			color: white;
 		}
 	}

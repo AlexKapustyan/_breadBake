@@ -37,18 +37,18 @@
 	}
 }
 
-
-
 @media (max-width: 991px) {
 	header {
 		.navbar-nav a:hover {
 			border: 0;
 		}
+
+		.container {
+			max-width: 100%;
+			padding: 1rem 2rem;
+		}
 	}
 
-	header .container {
-		padding: 1.0625rem 0;
-  }
 	#s1 {
 		.container {
 			padding: 10rem 0.9375rem 1.75rem 0.9375rem;
@@ -107,12 +107,20 @@
 }
 
 @media (max-width: 817px) {
-	.row .col:nth-child(3) {
+	#s3 .row .col:nth-child(3) {
 		display: none;
 	}
 
-	.row .col:nth-child(4) {
+	#s3 .row .col:nth-child(4) {
 		display: none;
+	}
+
+	#s3 .carousel .carousel-control-next {
+		right: -1.5rem;
+	}
+
+	#s3 .carousel .carousel-control-prev {
+		left: -1.4375rem;
 	}
 }
 
@@ -144,7 +152,7 @@
 
 @media (max-width: 760px) {
 	#s6 .column-2 .wrapper {
-		margin-left: -55px;
+		margin-left: -3.4375rem;
 	}
 }
 
@@ -169,7 +177,7 @@
 
 @media (max-width: 575px) {
 	header .collapse.show {
-		padding: 0 15px;
+		padding: 0 0.9375rem;
 	}
 }
 
@@ -201,10 +209,15 @@
 }
 
 @media (max-width: 521px) {
-.changeColor header, #contact header {
-	background-color: transparent;
-	color: #fff; }
-	.changeColor header nav a:hover, .changeColor header nav a.pd, #contact header nav a:hover, #contact header nav a.pd {
-	  border-color: #fff;
- }
+	.changeColor header,
+	#contact header {
+		background-color: transparent;
+		color: #fff;
+	}
+	.changeColor header nav a:hover,
+	.changeColor header nav a.pd,
+	#contact header nav a:hover,
+	#contact header nav a.pd {
+		border-color: #fff;
+	}
 }
