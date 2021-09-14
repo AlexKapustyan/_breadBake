@@ -14,25 +14,26 @@ $(document).ready(function () {
 		$('.navbar').removeClass('darck');
 	});
 
+	var scrolled;
+	window.onscroll = function () {
+		scrolled = window.pageYOffset || document.documentElement.scrollTop;//===changing the background and padding of the header when scrolling the page
+		if (scrolled > 50) {
+			$(".navbar").css({ "background": "rgba(0, 0, 0, 0.521)" });
+			$("header .container").css({ "max-width": "100%" });
+			$("header .container").css({ "padding": "1rem 1.8rem" });
+		}
+		if (50 > scrolled) {
+			$(".navbar").css({ "background": "rgba(0, 0, 0, 0)" });
+			$("header .container").css({ "max-width": "1240px" });
+			$("header .container").css({ "padding": "4.0625rem 1.8rem" });
+		}
+		if (50 > scrolled || 'max-width: 991px') {
+			$("header .container").css({ "padding": "1rem 1.8rem" });
+			
+		}
+
+
+	}
 
 });
 
-var scrolled;
-window.onscroll = function () {
-	scrolled = window.pageYOffset || document.documentElement.scrollTop;//===changing the background and padding of the header when scrolling the page
-	if (scrolled > 50) {
-		$(".navbar").css({ "background": "rgba(0, 0, 0, 0.521)" });
-		$("header .container").css({ "max-width": "100%" });
-		$("header .container").css({ "padding": "1rem 1.8rem" });
-	}
-	if (50 > scrolled) {
-		$(".navbar").css({ "background": "rgba(0, 0, 0, 0)" });
-		$("header .container").css({ "max-width": "1240px" });
-		$("header .container").css({ "padding": "4.0625rem 1.8rem" });
-	}
-	if (50 > scrolled || 'max-width: 991px') {
-		$("header .container").css({ "padding": "1rem 1.8rem" });
-		
-	}
-
-}
