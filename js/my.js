@@ -32,7 +32,7 @@ window.onscroll = function () {
 	}
 	if (50 > scrolled || 'max-width: 991px') {
 		$("header .container").css({ "padding": "1rem 1.8rem" });
-		$(".navbar").css({ "background": "rgba(0, 0, 0, 0.521)" });
+		
 	}
 
 }
