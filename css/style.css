@@ -13,12 +13,11 @@ header {
   width: 100%;
   top: 0;
   left: 0;
-  position: fixed;
   z-index: 10;
 }
 
 header .container {
-  padding: 4.0625rem 0;
+  padding: 4.0625rem 0.9375rem;
 }
 
 header .navbar-light .navbar-brand {

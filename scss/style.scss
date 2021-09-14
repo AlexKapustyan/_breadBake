@@ -16,11 +16,11 @@ header {
 	width: 100%;
 	top: 0;
 	left: 0;
-	position: fixed;
+	//position: fixed;
 	z-index: 10;
 
 	.container {
-		padding: 4.0625rem 0;
+		padding: 4.0625rem 0.9375rem;
 	}
 
 	.navbar-light .navbar-brand {
@@ -57,7 +57,7 @@ header {
 
 	.nav-item {
 		font-size: 1.125rem;
-	}	
+	}
 
 	.navbar-light .navbar-nav .nav-link {
 		color: white;

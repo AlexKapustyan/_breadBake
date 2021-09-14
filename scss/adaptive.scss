@@ -47,6 +47,10 @@
 			max-width: 100%;
 			padding: 1rem 1.8rem;
 		}
+
+		.darck {
+			background-color: rgba(0, 0, 0, 0.76) !important;
+		}
 	}
 
 	#s1 {
@@ -154,8 +158,6 @@
 	#s6 .column-2 .wrapper {
 		margin-left: -3.4375rem;
 	}
-
-	
 }
 
 @media (max-width: 629px) {
