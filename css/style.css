@@ -17,7 +17,7 @@ header {
 }
 
 header .container {
-  padding: 4.0625rem 0.9375rem;
+  padding: 4.0625rem 0;
 }
 
 header .navbar-light .navbar-brand {
@@ -28,7 +28,7 @@ header .navbar-light .navbar-brand {
 }
 
 header .darck {
-  background-color: rgba(0, 0, 0, 0.76);
+  background-color: rgba(0, 0, 0, 0.76) !important;
 }
 
 header .navbar-collapse {

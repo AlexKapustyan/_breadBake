@@ -148,9 +148,23 @@
 	#s2 ul {
 		display: flex;
 		flex-direction: column;
-		width: 200px;
+		width: 14.125rem;
 		text-align: left;
 		margin: auto;
+		list-style-type: none;
+		
+		li {
+			display: flex;		
+		}
+
+		li:before {
+			width: 0.9375rem;
+			height: 0.9375rem;
+			content: url("../img/Forma7.png");
+			margin-right: 0.625rem;
+			margin-top: -3px;
+			align-self: center;
+		}
 	}
 }
 

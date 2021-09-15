@@ -16,11 +16,10 @@ header {
 	width: 100%;
 	top: 0;
 	left: 0;
-	//position: fixed;
 	z-index: 10;
 
 	.container {
-		padding: 4.0625rem 0.9375rem;
+		padding: 4.0625rem 0;
 	}
 
 	.navbar-light .navbar-brand {
@@ -28,10 +27,10 @@ header {
 		font-size: 2.25rem;
 		color: white !important;
 		letter-spacing: 0.125rem;
-	}
+	}	
 
 	.darck {
-		background-color: rgba(0, 0, 0, 0.76);
+		background-color: rgba(0, 0, 0, 0.76) !important;
 	}
 
 	.navbar-collapse {
