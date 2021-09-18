@@ -2,22 +2,19 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>BakeryBo</title>
-	<meta name="keywords" content="">
-	<meta name="description" content="">
-	<link rel="shortcut icon" href="img/icons/favicon_16x16.svg" type="">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<title>Bootstrap Example</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/adaptive.css">
 </head>
 
-<body>
-
-	<header id="header" name="footer">
+<body data-spy="scroll" data-target=".navbar" data-offset="10">
+	<header id="header" name="header">
 		<nav class="navbar fixed-top navbar-expand-lg navbar-light container">
 			<div class="container-fluid">
 				<a class="navbar-brand" href="#">BakeryBo</a>
@@ -26,14 +23,27 @@
 					<span class="navbar-toggler-icon"></span>
 				</button>
 				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-					<div class="navbar-nav">
-						<a class="nav-item nav-link active" href="#header">Home</a>
-						<a class="nav-item nav-link" href="#s2">About</a>
-						<a class="nav-item nav-link" href="#s3">Prices</a>
-						<a class="nav-item nav-link" href="#s4">Where to buy</a>
-						<a class="nav-item nav-link" href="#s5">Bakery</a>
-						<a class="nav-item nav-link" href="#footer">Contact</a>
-					</div>
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" href="#s1">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#s2">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#s3">Prices</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#s4">Where to buy</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#s5">Bakery</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#footer">Contact</a>
+						</li>
+
+					</ul>
 				</div>
 			</div>
 		</nav>
@@ -383,9 +393,8 @@
 					</div>
 				</div>
 			</div>
+		</div>
 	</footer>
-
-
 
 
 	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"

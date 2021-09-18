@@ -9,7 +9,6 @@ html {
 }
 
 header {
-  background-color: rgba(0, 0, 0, 0);
   width: 100%;
   top: 0;
   left: 0;
@@ -41,13 +40,21 @@ header .navbar-nav {
   text-align: right;
   font-family: "Nunito";
   font-size: 1.125rem;
+  -webkit-box-align: self-end;
+      -ms-flex-align: self-end;
+          align-items: self-end;
+}
+
+header .navbar-light .navbar-nav .nav-link {
+  color: white !important;
 }
 
 header .navbar-light .navbar-nav .active > .nav-link,
 header .navbar-light .navbar-nav .nav-link.active,
 header .navbar-light .navbar-nav .nav-link.show,
 header .navbar-light .navbar-nav .show > .nav-link {
-  color: white;
+  color: rgba(0, 0, 0, 0.9);
+  border-bottom: 0.125rem solid white !important;
 }
 
 header .navbar-light .navbar-toggler-icon {
@@ -58,23 +65,14 @@ header .nav-item {
   font-size: 1.125rem;
 }
 
-header .navbar-light .navbar-nav .nav-link {
-  color: white;
-}
-
 header .navbar-nav a {
   margin-left: 2.625rem;
   padding: 0;
-  border-bottom: 0.125rem solid transparent;
 }
 
+header .navbar-nav a.active,
 header .navbar-nav a:hover {
-  color: white !important;
-  border-color: white;
-}
-
-header .collapse.show {
-  display: block;
+  border-bottom: 0.125rem solid white !important;
 }
 
 main {
