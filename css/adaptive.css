@@ -32,6 +32,18 @@
   }
 }
 
+@media (max-width: 1068px) {
+  #s3 #carousel .carousel-control-next {
+    right: -82px;
+  }
+  #s3 #carousel .carousel-control-prev {
+    left: -82px;
+  }
+  #s3 #carousel .card-body {
+    padding: 1rem;
+  }
+}
+
 @media (max-width: 991px) {
   header .navbar-nav a:hover {
     border: 0;
@@ -42,6 +54,13 @@
   }
   header .darck {
     background-color: rgba(0, 0, 0, 0.76) !important;
+  }
+  header .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  header li {
+    margin-bottom: 1.25rem;
   }
   #s1 .container {
     padding: 10rem 0.9375rem 1.75rem 0.9375rem;
@@ -55,6 +74,9 @@
   }
   #s1 div img {
     margin-top: 5rem;
+  }
+  #s3 .carousel-inner .row .col:first-child {
+    display: none;
   }
   #s6 .container {
     padding: 3rem 0.9375rem 3rem 0.9375rem;
@@ -95,18 +117,9 @@
   }
 }
 
-@media (max-width: 817px) {
-  #s3 .row .col:nth-child(3) {
+@media (max-width: 852px) {
+  #s3 .carousel-inner .row .col:last-child {
     display: none;
-  }
-  #s3 .row .col:nth-child(4) {
-    display: none;
-  }
-  #s3 .carousel .carousel-control-next {
-    right: -1.5rem;
-  }
-  #s3 .carousel .carousel-control-prev {
-    left: -1.4375rem;
   }
 }
 
@@ -159,21 +172,15 @@
   #s6 .column-2 .wrapper {
     margin-left: -3.4375rem;
   }
-}
-
-@media (max-width: 629px) {
-  #s3 .row .col:nth-child(2) {
-    display: none;
+  #s3 #carousel .carousel-control-next {
+    right: 0px;
   }
-  #s3 .col {
-    max-width: 50%;
+  #s3 #carousel .carousel-control-prev {
+    left: 0px;
+  }
+  #s3 .carousel-inner {
+    width: 70%;
     margin: auto;
-  }
-  #s3 .carousel .carousel-control-next {
-    right: 51px;
-  }
-  #s3 .carousel .carousel-control-prev {
-    left: 51px;
   }
 }
 

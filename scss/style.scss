@@ -18,14 +18,19 @@ header {
 	z-index: 10;
 
 	.container {
-		padding: 4.0625rem 0;
+		padding: 3.1875 0;
+	}
+
+	.container-fluid {
+		padding-right: 0.75rem;
+		padding-left: 0.75rem;
 	}
 
 	.navbar-light .navbar-brand {
 		font-family: "Kaushan Script";
 		font-size: 2.25rem;
 		color: white !important;
-		letter-spacing: 0.125rem;
+		letter-spacing: 0.06rem;
 	}
 
 	.darck {
@@ -45,6 +50,8 @@ header {
 
 	.navbar-light .navbar-nav .nav-link {
 		color: rgba(255, 255, 255, 1) !important;
+		padding-right: 0;
+		padding-left: 0;
 	}
 
 	.navbar-light .navbar-nav .active > .nav-link,
@@ -126,11 +133,12 @@ main {
 		border-radius: 0;
 		margin-right: 0.9375rem;
 		margin-left: 0.9375rem;
+		border: 2px solid #fff;
 	}
 
 	.btn-outline-dark {
 		color: #fff;
-		border-color: #fff;
+		border: 2px solid #fff;
 	}
 	div img {
 		margin-top: 7.4375rem;
@@ -159,9 +167,9 @@ main {
 	p {
 		font-family: "Nunito";
 		font-size: 0.875rem;
-		font-weight: 400;
+		font-weight: 600;
 		text-align: center;
-		margin-bottom: 1.25rem;
+		margin-bottom: 0.5rem;
 	}
 
 	p:nth-child(4) {
@@ -196,92 +204,186 @@ main {
 		margin-bottom: 3rem;
 	}
 
-	.carousel {
-		position: relative;
+	#carousel {
 		max-width: 52.6875rem;
 		margin: auto;
 		max-height: 18.25rem;
+		margin-bottom: 5.9375rem;
+
+		.carousel-indicators {
+			top: 318px;
+		}
+
+		.carousel-indicators .active {
+			background-color: rgb(48, 40, 40);
+		}
+
+		.carousel-indicators li {
+			width: 8px;
+			height: 8px;
+			border-radius: 100%;
+			border: 1px solid black;
+		}
+
+		.card {
+			padding-top: 15px;
+			border: none;
+			align-self: center;
+			border-radius: 0;
+			box-shadow: 0 6px 9px rgba(0, 0, 0, 0.04);
+		}
+
+		.card-deck {
+			justify-content: center;
+		}
+
+		.card-img-top {
+			max-width: 6.875rem;
+			margin: auto;
+		}
+
+		h5,
+		.card-text {
+			text-align: center;
+		}
+
+		h5 {
+			margin-bottom: 0.44rem;
+			font-size: 14px;
+		}
+
+		h5 {
+			margin-bottom: 0.44rem;
+			font-size: 14px;
+		}
+
+		h5:nth-child(2) {
+			margin-bottom: 1rem;
+		}
+
+		.card-text {
+			margin-bottom: 0.75rem;
+			font-size: 0.625rem;
+		}
+
+		.card-text:last-child {
+			font-family: "Open Sans SemiBold";
+			font-size: 1rem;
+			margin-bottom: 0;
+		}
 
 		.carousel-control-prev {
-			border-radius: 0;
-			border: 0;
-			background: none;
-			justify-content: flex-start;
-			left: -2.625rem;
+			left: -113px;
 		}
 
 		.carousel-control-next {
-			border-radius: 0;
-			border: 0;
-			background: none;
-			justify-content: flex-end;
-			right: -3.75rem;
+			right: -113px;
+		}
+
+		.carousel-control-prev-icon {
+			background-image: url("../img/Arrow-left.png");
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-size: cover;
+			width: 1rem;
+			height: 1.6875rem;
+		}
+
+		.carousel-control-next-icon {
+			background-image: url("../img/Arrow-right.png");
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-size: cover;
+			width: 1rem;
+			height: 1.6875rem;
 		}
 	}
 
-	.carousel-control-prev-icon {
-		background-image: url("../img/Arrow-left.png");
-		background-repeat: no-repeat;
-		background-position: center center;
-		background-size: cover;
-	}
+	// .carousel {
+	// 	position: relative;
+	// 	max-width: 52.6875rem;
+	// 	margin: auto;
+	// 	max-height: 18.25rem;
+	// 	margin-bottom: 2.1875rem;
 
-	.carousel-control-next-icon {
-		background-image: url("../img/Arrow-right.png");
-		background-repeat: no-repeat;
-		background-position: center center;
-		background-size: cover;
-	}
+	// 	.carousel-control-prev {
+	// 		border-radius: 0;
+	// 		border: 0;
+	// 		background: none;
+	// 		justify-content: flex-start;
+	// 		left: -2.625rem;
+	// 	}
 
-	.card {
-		border: none;
-		align-self: center;
-		border-radius: 0;
-		box-shadow: 0 6px 9px rgba(0, 0, 0, 0.04);
-	}
+	// 	.carousel-control-next {
+	// 		border-radius: 0;
+	// 		border: 0;
+	// 		background: none;
+	// 		justify-content: flex-end;
+	// 		right: -3.75rem;
+	// 	}
+	// }
 
-	.card-deck {
-		justify-content: center;
-	}
+	// .carousel-control-prev-icon {
+	// 	background-image: url("../img/Arrow-left.png");
+	// 	background-repeat: no-repeat;
+	// 	background-position: center center;
+	// 	background-size: cover;
+	// }
 
-	.card-img-top {
-		max-width: 6.875rem;
-		margin: auto;
-	}
+	// .carousel-control-next-icon {
+	// 	background-image: url("../img/Arrow-right.png");
+	// 	background-repeat: no-repeat;
+	// 	background-position: center center;
+	// 	background-size: cover;
+	// }
 
-	h5,
-	.card-text {
-		text-align: center;
-	}
+	// .card {
+	// 	border: none;
+	// 	align-self: center;
+	// 	border-radius: 0;
+	// 	box-shadow: 0 6px 9px rgba(0, 0, 0, 0.04);
+	// }
 
-	h5 {
-		margin-bottom: 0.44rem;
-		font-size: 14px;
-	}
+	// .card-deck {
+	// 	justify-content: center;
+	// }
 
-	h5:nth-child(2) {
-		margin-bottom: 1rem;
-	}
+	// .card-img-top {
+	// 	max-width: 6.875rem;
+	// 	margin: auto;
+	// }
 
-	.card-text {
-		margin-bottom: 0.75rem;
-		font-size: 0.625rem;
-	}
+	// h5,
+	// .card-text {
+	// 	text-align: center;
+	// }
 
-	.card-text:last-child {
-		font-family: "Open Sans SemiBold";
-		font-size: 1rem;
-		margin-bottom: 0;
-	}
+	// h5 {
+	// 	margin-bottom: 0.44rem;
+	// 	font-size: 14px;
+	// }
+
+	// h5:nth-child(2) {
+	// 	margin-bottom: 1rem;
+	// }
+
+	// .card-text {
+	// 	margin-bottom: 0.75rem;
+	// 	font-size: 0.625rem;
+	// }
+
+	// .card-text:last-child {
+	// 	font-family: "Open Sans SemiBold";
+	// 	font-size: 1rem;
+	// 	margin-bottom: 0;
+	// }
 
 	.text {
+		font-family: "Nunito";
+		font-weight: 400;
 		text-align: center;
-		margin-top: 2.875rem;
+		margin-top: 0.3rem;
 		margin-bottom: 0;
-	}
-
-	.text:last-child {
-		margin-top: 0.6875rem;
 	}
 
 	.but {
@@ -298,6 +400,7 @@ main {
 		border-radius: 0;
 		margin-right: 0.9375rem;
 		margin-left: 0.9375rem;
+		border: 2px solid rgb(52, 58, 64);
 	}
 }
 
@@ -409,7 +512,6 @@ main {
 	}
 
 	.column-1 {
-		max-width: 35%;
 		display: flex;
 		flex-direction: column;
 

@@ -16,14 +16,19 @@ header {
 }
 
 header .container {
-  padding: 4.0625rem 0;
+  padding: 3.1875 0;
+}
+
+header .container-fluid {
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
 }
 
 header .navbar-light .navbar-brand {
   font-family: "Kaushan Script";
   font-size: 2.25rem;
   color: white !important;
-  letter-spacing: 0.125rem;
+  letter-spacing: 0.06rem;
 }
 
 header .darck {
@@ -47,6 +52,8 @@ header .navbar-nav {
 
 header .navbar-light .navbar-nav .nav-link {
   color: white !important;
+  padding-right: 0;
+  padding-left: 0;
 }
 
 header .navbar-light .navbar-nav .active > .nav-link,
@@ -128,11 +135,12 @@ main {
   border-radius: 0;
   margin-right: 0.9375rem;
   margin-left: 0.9375rem;
+  border: 2px solid #fff;
 }
 
 #s1 .btn-outline-dark {
   color: #fff;
-  border-color: #fff;
+  border: 2px solid #fff;
 }
 
 #s1 div img {
@@ -162,9 +170,9 @@ main {
 #s2 p {
   font-family: "Nunito";
   font-size: 0.875rem;
-  font-weight: 400;
+  font-weight: 600;
   text-align: center;
-  margin-bottom: 1.25rem;
+  margin-bottom: 0.5rem;
 }
 
 #s2 p:nth-child(4) {
@@ -199,48 +207,30 @@ main {
   margin-bottom: 3rem;
 }
 
-#s3 .carousel {
-  position: relative;
+#s3 #carousel {
   max-width: 52.6875rem;
   margin: auto;
   max-height: 18.25rem;
+  margin-bottom: 5.9375rem;
 }
 
-#s3 .carousel .carousel-control-prev {
-  border-radius: 0;
-  border: 0;
-  background: none;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  left: -2.625rem;
+#s3 #carousel .carousel-indicators {
+  top: 318px;
 }
 
-#s3 .carousel .carousel-control-next {
-  border-radius: 0;
-  border: 0;
-  background: none;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  right: -3.75rem;
+#s3 #carousel .carousel-indicators .active {
+  background-color: #302828;
 }
 
-#s3 .carousel-control-prev-icon {
-  background-image: url("../img/Arrow-left.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
+#s3 #carousel .carousel-indicators li {
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  border: 1px solid black;
 }
 
-#s3 .carousel-control-next-icon {
-  background-image: url("../img/Arrow-right.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-}
-
-#s3 .card {
+#s3 #carousel .card {
+  padding-top: 15px;
   border: none;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
@@ -250,50 +240,79 @@ main {
           box-shadow: 0 6px 9px rgba(0, 0, 0, 0.04);
 }
 
-#s3 .card-deck {
+#s3 #carousel .card-deck {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
 
-#s3 .card-img-top {
+#s3 #carousel .card-img-top {
   max-width: 6.875rem;
   margin: auto;
 }
 
-#s3 h5,
-#s3 .card-text {
+#s3 #carousel h5,
+#s3 #carousel .card-text {
   text-align: center;
 }
 
-#s3 h5 {
+#s3 #carousel h5 {
   margin-bottom: 0.44rem;
   font-size: 14px;
 }
 
-#s3 h5:nth-child(2) {
+#s3 #carousel h5 {
+  margin-bottom: 0.44rem;
+  font-size: 14px;
+}
+
+#s3 #carousel h5:nth-child(2) {
   margin-bottom: 1rem;
 }
 
-#s3 .card-text {
+#s3 #carousel .card-text {
   margin-bottom: 0.75rem;
   font-size: 0.625rem;
 }
 
-#s3 .card-text:last-child {
+#s3 #carousel .card-text:last-child {
   font-family: "Open Sans SemiBold";
   font-size: 1rem;
   margin-bottom: 0;
 }
 
-#s3 .text {
-  text-align: center;
-  margin-top: 2.875rem;
-  margin-bottom: 0;
+#s3 #carousel .carousel-control-prev {
+  left: -113px;
 }
 
-#s3 .text:last-child {
-  margin-top: 0.6875rem;
+#s3 #carousel .carousel-control-next {
+  right: -113px;
+}
+
+#s3 #carousel .carousel-control-prev-icon {
+  background-image: url("../img/Arrow-left.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 1rem;
+  height: 1.6875rem;
+}
+
+#s3 #carousel .carousel-control-next-icon {
+  background-image: url("../img/Arrow-right.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 1rem;
+  height: 1.6875rem;
+}
+
+#s3 .text {
+  font-family: "Nunito";
+  font-weight: 400;
+  text-align: center;
+  margin-top: 0.3rem;
+  margin-bottom: 0;
 }
 
 #s3 .but {
@@ -315,6 +334,7 @@ main {
   border-radius: 0;
   margin-right: 0.9375rem;
   margin-left: 0.9375rem;
+  border: 2px solid #343a40;
 }
 
 #s4 {
@@ -439,7 +459,6 @@ main {
 }
 
 #s6 .column-1 {
-  max-width: 35%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
