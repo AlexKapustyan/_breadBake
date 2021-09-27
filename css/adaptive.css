@@ -78,6 +78,9 @@
   #s3 .carousel-inner .row .col:first-child {
     display: none;
   }
+  #s3 #carousel {  
+    margin-bottom: 3.9375rem;
+  }
   #s6 .container {
     padding: 3rem 0.9375rem 3rem 0.9375rem;
   }
@@ -188,6 +191,10 @@
   #s3 .carousel-inner .row .col:nth-child(2) {
     display: none;
   }
+  
+  #s3 #carousel .carousel-indicators {
+    top: 277px;
+  }
 }
 
 @media (max-width: 575px) {
@@ -197,6 +204,16 @@
 }
 
 @media (max-width: 521px) {
+  
+  #s5 a img {
+    margin-top: 1.875rem;
+  }
+  #s5 .container {
+    padding: 4.8125rem 0.9375rem 1.8125rem 0.9375rem;    
+  }
+  #s6 .container {
+    padding: 1rem 0.9375rem 3rem 0.9375rem;
+  }
   #s6 img {
     display: -webkit-box;
     display: -ms-flexbox;
