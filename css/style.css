@@ -136,6 +136,7 @@ main {
   margin-right: 0.9375rem;
   margin-left: 0.9375rem;
   border: 2px solid #fff;
+  cursor: pointer;
 }
 
 #s1 .btn-outline-dark {
@@ -335,6 +336,7 @@ main {
   margin-right: 0.9375rem;
   margin-left: 0.9375rem;
   border: 2px solid #343a40;
+  cursor: pointer;
 }
 
 #s4 {
@@ -522,6 +524,7 @@ main {
   line-height: 1.5;
   border-radius: 0;
   margin-right: 1.875rem;
+  cursor: pointer;
 }
 
 #s6 img {
