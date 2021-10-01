@@ -16,19 +16,20 @@ header {
 }
 
 header .container {
-  padding: 3.1875 0;
+  background: rgba(0, 0, 0, 0);
+  max-width: 1170px;
+  padding: 3.2rem 0.9375rem;
+  letter-spacing: 0.01rem;
 }
 
 header .container-fluid {
-  padding-right: 0.75rem;
-  padding-left: 0.75rem;
+  padding-right: 10px;
 }
 
 header .navbar-light .navbar-brand {
   font-family: "Kaushan Script";
   font-size: 2.25rem;
   color: white !important;
-  letter-spacing: 0.06rem;
 }
 
 header .darck {
@@ -52,8 +53,6 @@ header .navbar-nav {
 
 header .navbar-light .navbar-nav .nav-link {
   color: white !important;
-  padding-right: 0;
-  padding-left: 0;
 }
 
 header .navbar-light .navbar-nav .active > .nav-link,
@@ -70,21 +69,18 @@ header .navbar-light .navbar-toggler-icon {
 
 header .nav-item {
   font-size: 1.125rem;
+  height: 2.5rem;
 }
 
 header .navbar-nav a {
-  margin-left: 2.625rem;
+  margin-left: 1.67rem;
   padding: 0;
+  line-height: 2.5rem;
 }
 
 header .navbar-nav a.active,
 header .navbar-nav a:hover {
   border-bottom: 0.125rem solid white !important;
-}
-
-main {
-  max-width: 1600px;
-  margin: auto;
 }
 
 #s1 {
@@ -97,55 +93,65 @@ main {
 }
 
 #s1 .container {
-  padding: 13.5625rem 0.9375rem 1.75rem 0.9375rem;
+  padding: 12.8rem 0.9375rem 1.75rem 0.9375rem;
 }
 
 #s1 h1 {
   font-family: Nunito;
   font-weight: 600;
   font-size: 3rem;
-  letter-spacing: 0.0625rem;
+  letter-spacing: 0.04rem;
+}
+
+#s1 h1 sup {
+  font-size: 1.9rem;
 }
 
 #s1 h2 {
   font-family: Nunito;
   font-weight: 600;
   font-size: 2.5rem;
-  margin-top: 0.75rem;
-  letter-spacing: 0.0625rem;
+  margin-top: 0.6rem;
+  letter-spacing: 0.02rem;
 }
 
 #s1 p {
   font-family: "Nunito";
   font-weight: 400;
   font-size: 1.125rem;
-  margin-top: 2.875rem;
+  margin-top: 2.3rem;
+  letter-spacing: 0.02rem;
 }
 
 #s1 p:nth-child(4) {
-  margin-top: 1.25rem;
-  margin-bottom: 2.6875rem;
+  margin-top: -0.4rem;
+  margin-bottom: 2.4rem;
 }
 
 #s1 .btn {
-  margin-top: 1rem;
   min-width: 10rem;
   font-size: 0.875rem;
   line-height: 1.5;
   border-radius: 0;
   margin-right: 0.9375rem;
   margin-left: 0.9375rem;
-  border: 2px solid #fff;
+  padding-top: 0.6rem;
   cursor: pointer;
 }
 
 #s1 .btn-outline-dark {
   color: #fff;
-  border: 2px solid #fff;
+  border-color: #fff;
 }
 
-#s1 div img {
-  margin-top: 7.4375rem;
+#s1 div a {
+  margin-top: 7rem;
+  border: solid white;
+  border-width: 0 4px 4px 0;
+  display: inline-block;
+  padding: 10px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
 }
 
 #s2 {
@@ -156,7 +162,7 @@ main {
 }
 
 #s2 .container {
-  padding: 3.3125rem 0.9375rem 2.75rem 0.9375rem;
+  padding: 2.9rem 0.9375rem 2.75rem 0.9375rem;
   text-align: center;
 }
 
@@ -165,19 +171,31 @@ main {
   font-size: 2rem;
   font-weight: 700;
   text-align: center;
-  margin-bottom: 2.3125rem;
+  margin-bottom: 1.5rem;
+  letter-spacing: 0.04rem;
 }
 
 #s2 p {
   font-family: "Nunito";
   font-size: 0.875rem;
-  font-weight: 600;
+  font-weight: 400;
   text-align: center;
   margin-bottom: 0.5rem;
+  letter-spacing: 0.02rem;
 }
 
 #s2 p:nth-child(4) {
-  margin-bottom: 2.9375rem;
+  margin-bottom: 2.5rem;
+}
+
+#s2 div:nth-child(5) {
+  margin: auto;
+  width: 120px;
+  height: 9px;
+  background-image: url("../img/Wave.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 
 #s2 ul {
@@ -188,8 +206,13 @@ main {
   display: none;
 }
 
-#s2 div a img {
-  margin-top: 0.625rem;
+#s2 a {
+  border: solid black;
+  border-width: 0 4px 4px 0;
+  display: inline-block;
+  padding: 10px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
 }
 
 #s3 {
@@ -197,7 +220,7 @@ main {
 }
 
 #s3 .container {
-  padding: 3.875rem 0.9375rem 4rem 0.9375rem;
+  padding: 3rem 0.9375rem 4rem 0.9375rem;
 }
 
 #s3 h3 {
@@ -205,18 +228,18 @@ main {
   font-weight: 600;
   font-size: 2rem;
   text-align: center;
-  margin-bottom: 3rem;
+  margin-bottom: 2.2rem;
+  letter-spacing: 0.03rem;
 }
 
 #s3 #carousel {
-  max-width: 52.6875rem;
+  max-width: 45.9rem;
   margin: auto;
   max-height: 18.25rem;
-  margin-bottom: 5.9375rem;
 }
 
 #s3 #carousel .carousel-indicators {
-  top: 318px;
+  top: 19.4rem;
 }
 
 #s3 #carousel .carousel-indicators .active {
@@ -258,21 +281,18 @@ main {
 }
 
 #s3 #carousel h5 {
-  margin-bottom: 0.44rem;
-  font-size: 14px;
-}
-
-#s3 #carousel h5 {
-  margin-bottom: 0.44rem;
-  font-size: 14px;
+  font-family: "Nunito";
+  font-weight: 400;
+  font-size: 0.875rem;
+  margin-bottom: 0.09rem;
 }
 
 #s3 #carousel h5:nth-child(2) {
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 #s3 #carousel .card-text {
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.5rem;
   font-size: 0.625rem;
 }
 
@@ -283,11 +303,11 @@ main {
 }
 
 #s3 #carousel .carousel-control-prev {
-  left: -113px;
+  left: -6rem;
 }
 
 #s3 #carousel .carousel-control-next {
-  right: -113px;
+  right: -6rem;
 }
 
 #s3 #carousel .carousel-control-prev-icon {
@@ -311,9 +331,15 @@ main {
 #s3 .text {
   font-family: "Nunito";
   font-weight: 400;
+  font-size: 0.875rem;
   text-align: center;
-  margin-top: 0.3rem;
+  margin-top: 6.5rem;
   margin-bottom: 0;
+  letter-spacing: 0.015rem;
+}
+
+#s3 .container .text:nth-child(4) {
+  margin-top: 0.1rem;
 }
 
 #s3 .but {
@@ -328,14 +354,14 @@ main {
 }
 
 #s3 .btn {
-  margin-top: 2.6875rem;
+  margin-top: 2.5rem;
   min-width: 10rem;
   font-size: 0.875rem;
   line-height: 1.5;
   border-radius: 0;
   margin-right: 0.9375rem;
   margin-left: 0.9375rem;
-  border: 2px solid #343a40;
+  padding-bottom: 0.5rem;
   cursor: pointer;
 }
 
@@ -348,7 +374,7 @@ main {
 }
 
 #s4 .container {
-  padding: 3.8125rem 0.9375rem 3.5625rem 0.9375rem;
+  padding: 3.7rem 0.9375rem 3.5625rem 0.9375rem;
   text-align: center;
 }
 
@@ -356,22 +382,33 @@ main {
   font-family: "Nunito";
   font-weight: 700;
   font-size: 2rem;
-  margin-bottom: 2.3125rem;
+  margin-bottom: 1.5rem;
 }
 
 #s4 p {
   font-family: "Nunito";
   font-size: 0.875rem;
   font-weight: 400;
-  margin-bottom: 1.25rem;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.02rem;
 }
 
 #s4 p:nth-child(3) {
-  margin-bottom: 2.6875rem;
+  margin-bottom: 2.3rem;
+}
+
+#s4 div:nth-child(4) {
+  margin: auto;
+  width: 120px;
+  height: 9px;
+  background-image: url("../img/WaveW.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 
 #s4 .partners {
-  max-width: 45.6875rem;
+  max-width: 47.2rem;
   margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -384,7 +421,7 @@ main {
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-top: 3.5625rem;
+  margin-top: 3.2rem;
 }
 
 #s4 .partners img {
@@ -393,8 +430,15 @@ main {
   margin-bottom: 1.5625rem;
 }
 
-#s4 a img {
+#s4 a {
   margin-top: 2.125rem;
+  margin-top: 1.6rem;
+  border: solid white;
+  border-width: 0 4px 4px 0;
+  display: inline-block;
+  padding: 10px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
 }
 
 #s5 {
@@ -402,7 +446,7 @@ main {
 }
 
 #s5 .container {
-  padding: 4.8125rem 0.9375rem 3.8125rem 0.9375rem;
+  padding: 4.5rem 0.9375rem 3.8125rem 0.9375rem;
   text-align: center;
 }
 
@@ -410,7 +454,8 @@ main {
   font-family: "Nunito";
   font-weight: 700;
   font-size: 2rem;
-  margin-bottom: 3.5rem;
+  margin-bottom: 3.1rem;
+  letter-spacing: 0.03rem;
 }
 
 #s5 .col div {
@@ -425,13 +470,78 @@ main {
   margin: auto;
 }
 
+#s5 .col .seeds {
+  margin: auto;
+  width: 61px;
+  height: 61px;
+  background-image: url("../img/Seeds.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+#s5 .col .calendar {
+  margin: auto;
+  width: 61px;
+  height: 61px;
+  background-image: url("../img/Calendar.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+#s5 .col .cart {
+  margin: auto;
+  width: 61px;
+  height: 61px;
+  background-image: url("../img/Cart.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+#s5 .col .bread {
+  width: 61px;
+  height: 61px;
+}
+
+#s5 .col .bread .breadItem {
+  margin: auto;
+  width: 61px;
+  height: 30px;
+  background-image: url("../img/Bread.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+#s5 .col .recycable {
+  margin: auto;
+  width: 61px;
+  height: 61px;
+  background-image: url("../img/Recycable.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+#s5 .col .rolling {
+  margin: auto;
+  width: 61px;
+  height: 61px;
+  background-image: url("../img/Rolling.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
 #s5 .col h6 {
   font-family: "Nunito";
   font-size: 1rem;
   font-weight: 600;
   text-align: center;
-  margin-top: 1.875rem;
-  margin-bottom: 1.0625rem;
+  margin-top: 1.67rem;
+  margin-bottom: 0.7rem;
 }
 
 #s5 .col p {
@@ -440,10 +550,17 @@ main {
   font-weight: 400;
   text-align: center;
   line-height: 1.286;
+  letter-spacing: 0.03rem;
 }
 
-#s5 a img {
-  margin-top: 3.875rem;
+#s5 a {
+  margin-top: 2.4rem;
+  border: solid black;
+  border-width: 0 4px 4px 0;
+  display: inline-block;
+  padding: 10px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
 }
 
 #s6 {
@@ -451,13 +568,17 @@ main {
 }
 
 #s6 .container {
-  padding: 5.125rem 0.9375rem 8.8125rem 0.9375rem;
+  padding: 4.6rem 0.5rem 5rem 0.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+#s6 .col-7 {
+  padding-left: 0;
 }
 
 #s6 .column-1 {
@@ -474,20 +595,26 @@ main {
   font-family: "Nunito";
   font-weight: 700;
   font-size: 2rem;
-  margin-bottom: 2.375rem;
+  margin-bottom: 1.7rem;
+  letter-spacing: 0.04rem;
 }
 
 #s6 .column-1 p {
   font-family: "Nunito";
   font-weight: 400;
   font-size: 0.875rem;
-  margin-bottom: 2.1875rem;
+  margin-bottom: 0.98rem;
   line-height: 2.143;
+  letter-spacing: 0.02rem;
 }
 
 #s6 .column-1 form {
-  margin-top: 0.625rem;
+  margin-top: 1.2rem;
   max-width: 21.75rem;
+}
+
+#s6 .column-1 .form-group {
+  margin-bottom: 0.5rem;
 }
 
 #s6 .column-1 .form-control {
@@ -517,31 +644,113 @@ main {
   font-size: 0.75rem;
 }
 
-#s6 .column-1 .btn {
+#s6 .column-1 .but {
+  max-width: 21.75rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#s6 .column-1 .but .btn {
   margin-top: 1rem;
-  width: 10rem;
+  width: 100%;
   font-size: 0.875rem;
   line-height: 1.5;
   border-radius: 0;
-  margin-right: 1.875rem;
   cursor: pointer;
+}
+
+#s6 .column-1 .but .btn:first-child {
+  margin-right: 1.875rem;
 }
 
 #s6 img {
   display: none;
 }
 
-#s6 .column-2 {
-  max-width: 100%;
+#s6 .col,
+#s6 .col-1,
+#s6 .col-10,
+#s6 .col-11,
+#s6 .col-12,
+#s6 .col-2,
+#s6 .col-3,
+#s6 .col-4,
+#s6 .col-5,
+#s6 .col-6,
+#s6 .col-7,
+#s6 .col-8,
+#s6 .col-9,
+#s6 .col-auto,
+#s6 .col-lg,
+#s6 .col-lg-1,
+#s6 .col-lg-10,
+#s6 .col-lg-11,
+#s6 .col-lg-12,
+#s6 .col-lg-2,
+#s6 .col-lg-3,
+#s6 .col-lg-4,
+#s6 .col-lg-5,
+#s6 .col-lg-6,
+#s6 .col-lg-7,
+#s6 .col-lg-8,
+#s6 .col-lg-9,
+#s6 .col-lg-auto,
+#s6 .col-md,
+#s6 .col-md-1,
+#s6 .col-md-10,
+#s6 .col-md-11,
+#s6 .col-md-12,
+#s6 .col-md-2,
+#s6 .col-md-3,
+#s6 .col-md-4,
+#s6 .col-md-5,
+#s6 .col-md-6,
+#s6 .col-md-7,
+#s6 .col-md-8,
+#s6 .col-md-9,
+#s6 .col-md-auto,
+#s6 .col-sm,
+#s6 .col-sm-1,
+#s6 .col-sm-10,
+#s6 .col-sm-11,
+#s6 .col-sm-12,
+#s6 .col-sm-2,
+#s6 .col-sm-3,
+#s6 .col-sm-4,
+#s6 .col-sm-5,
+#s6 .col-sm-6,
+#s6 .col-sm-7,
+#s6 .col-sm-8,
+#s6 .col-sm-9,
+#s6 .col-sm-auto,
+#s6 .col-xl,
+#s6 .col-xl-1,
+#s6 .col-xl-10,
+#s6 .col-xl-11,
+#s6 .col-xl-12,
+#s6 .col-xl-2,
+#s6 .col-xl-3,
+#s6 .col-xl-4,
+#s6 .col-xl-5,
+#s6 .col-xl-6,
+#s6 .col-xl-7,
+#s6 .col-xl-8,
+#s6 .col-xl-9,
+#s6 .col-xl-auto {
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-left: 0.4rem;
 }
 
 #s6 .column-2 .wrapper {
-  width: 31.25rem;
-  height: 33.75rem;
   background-image: url("../img/CouponOutline.png");
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: cover;
+  background-size: contain;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -553,45 +762,43 @@ main {
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
-}
-
-#s6 .column-2 .wrapper p {
-  line-height: 0.9;
+  padding-top: 2.78rem;
+  padding-bottom: 2.5rem;
 }
 
 #s6 .column-2 .wrapper p:first-child {
   font-family: "Open Sans SemiBold";
   font-weight: 600;
   font-size: 3rem;
-  margin-bottom: 0.625rem;
 }
 
 #s6 .column-2 .wrapper p:nth-child(2) {
   font-family: "Open Sans SemiBold";
   font-weight: 600;
   font-size: 7.5rem;
-  margin-bottom: 1.3125rem;
+  margin-bottom: 3.5rem;
+  line-height: 0.4;
 }
 
 #s6 .column-2 .wrapper p:nth-child(3) {
   font-family: "Open Sans SemiBold";
   font-weight: 600;
   font-size: 1.5rem;
-  margin-bottom: 0.75rem;
 }
 
 #s6 .column-2 .wrapper p:nth-child(4) {
   font-family: "Kaushan Script";
   font-size: 3rem;
   letter-spacing: 0.125rem;
-  margin-bottom: 0.75rem;
+  margin-bottom: 1.4rem;
+  line-height: 0.4;
 }
 
 #s6 .column-2 .wrapper p:nth-child(5) {
   font-family: "Open Sans SemiBold";
   font-weight: 600;
   font-size: 1.5rem;
-  margin-bottom: 2.5rem;
+  margin-bottom: 1.8rem;
 }
 
 #s6 .column-2 .wrapper p:last-child {
@@ -602,7 +809,6 @@ main {
 }
 
 footer {
-  max-width: 1600px;
   margin: auto;
   color: white;
   background-image: url("../img/footer.png");
@@ -612,7 +818,7 @@ footer {
 }
 
 footer .container {
-  padding: 3.5625rem 0.9375rem 4.625rem 0.9375rem;
+  padding: 2.9rem 0.9375rem 4.625rem 0.9375rem;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -621,7 +827,7 @@ footer .container {
 footer .col-8 p a {
   font-family: "Kaushan Script";
   font-size: 2.25rem;
-  letter-spacing: 0.125rem;
+  letter-spacing: 0.03rem;
   margin-bottom: 1.5rem;
   color: white;
   text-decoration: none;
@@ -638,14 +844,16 @@ footer .col p {
   font-family: "Open Sans";
   font-weight: 600;
   font-size: 1rem;
-  margin-bottom: 1.25rem;
+  margin-top: 1rem;
+  margin-bottom: 0;
 }
 
 footer .col p:nth-child(2) {
   font-family: "Open Sans";
   font-weight: 400;
   font-size: 0.875rem;
-  margin-bottom: 0.625rem;
+  margin-top: 0.6rem;
+  margin-bottom: 0.4rem;
 }
 
 footer .col div:nth-child(3) {
@@ -664,4 +872,13 @@ footer .col:last-child a {
   font-size: 0.875rem;
   margin-bottom: 0.625rem;
   color: white;
+}
+
+footer .phone {
+  margin-top: 0.35rem;
+}
+
+footer .phone:nth-child(3) {
+  margin-top: 0.2rem;
+  line-height: 0.9rem;
 }
