@@ -5,9 +5,9 @@
 			align-items: center;
 		}
 
-		.col-7 {	
+		.col-7 {
 			max-width: 95%;
-	  }
+		}
 
 		.column-1 {
 			h3,
@@ -21,7 +21,7 @@
 			}
 
 			.btn {
-				margin-bottom: 2rem;
+				//margin-bottom: 2rem;
 			}
 
 			.btn:first-child {
@@ -37,14 +37,13 @@
 }
 
 @media (max-width: 991px) {
+	#s1 h1 {
+		font-size: 2rem;
+	}
 
-	#s1 h1 {	
-		font-size: 2rem;		
-  }
-
-  #s1 h2 {
-	font-size: 1.5rem;	
-}
+	#s1 h2 {
+		font-size: 1.5rem;
+	}
 	#s2 .container img:nth-child(7) {
 		display: none;
 	}
@@ -99,7 +98,12 @@
 
 @media (max-width: 768px) {
 	#s1 .container {
-		padding: 7rem 0.9375rem 1.75rem 0.9375rem;
+		padding: 9rem 0.9375rem 1.75rem 0.9375rem;
+	}
+
+	#s1 h1 {
+		font-size: 1.5rem;
+		line-height: 3.5rem;
 	}
 
 	#s1 div a {
@@ -116,7 +120,7 @@
 
 	#s6 img {
 		display: flex;
-		margin-top: 1rem;
+		margin-top: 2rem;
 		margin-bottom: -2rem;
 	}
 
@@ -126,14 +130,17 @@
 }
 
 @media (max-width: 576px) {
+	#s1 h1 {
+		font-size: 1.5rem;
+	}
 
-	#s1 h1 {	
-		font-size: 1.5rem;		
+	#s1 h2 {
+		font-size: 1rem;
+	}
+
+	#s1 .btn {
+		margin-bottom: 1rem;
   }
-
-  #s1 h2 {
-	font-size: 1rem;	
-}
 
 	#s3 .row .col:nth-child(2) {
 		display: none;
@@ -160,13 +167,12 @@
 		font-size: 1.3rem;
 	}
 
-	#s6 .column-2 .wrapper p:nth-child(2) {	
+	#s6 .column-2 .wrapper p:nth-child(2) {
 		font-size: 5rem;
-		margin-bottom: 2rem;	
+		margin-bottom: 2rem;
 	}
-	#s6 .column-2 .wrapper p:nth-child(4) {		
+	#s6 .column-2 .wrapper p:nth-child(4) {
 		font-size: 2rem;
-		letter-spacing: 0rem;		
-  }
+		letter-spacing: 0rem;
+	}
 }
-
