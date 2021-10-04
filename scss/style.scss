@@ -613,7 +613,7 @@ header {
 			height: 1.25rem;
 			margin-top: 0.125rem;
 			border: 1px solid black;
-			-webkit-appearance: none;
+			//-webkit-appearance: none;
 		}
 
 		.form-check-label {
@@ -846,6 +846,34 @@ footer {
 
 		a {
 			margin-right: 13px;
+		}
+
+		.twitter {
+			//margin: auto;
+			width: 27px;
+			height: 27px;
+			background-image: url("../img/Twitter%20icon.png");
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-size: cover;
+		}
+		
+		.insta {
+			width: 27px;
+			height: 27px;
+			background-image: url("../img/Insta%20icon.png");
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-size: cover;
+		}
+
+		.fb {
+			width: 27px;
+			height: 27px;
+			background-image: url("../img/FB%20icon.png");
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-size: cover;
 		}
 	}
 

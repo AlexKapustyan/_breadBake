@@ -5,6 +5,10 @@
 			align-items: center;
 		}
 
+		.col-7 {	
+			max-width: 95%;
+	  }
+
 		.column-1 {
 			h3,
 			p {
@@ -33,6 +37,14 @@
 }
 
 @media (max-width: 991px) {
+
+	#s1 h1 {	
+		font-size: 2rem;		
+  }
+
+  #s1 h2 {
+	font-size: 1.5rem;	
+}
 	#s2 .container img:nth-child(7) {
 		display: none;
 	}
@@ -114,12 +126,21 @@
 }
 
 @media (max-width: 576px) {
+
+	#s1 h1 {	
+		font-size: 1.5rem;		
+  }
+
+  #s1 h2 {
+	font-size: 1rem;	
+}
+
 	#s3 .row .col:nth-child(2) {
 		display: none;
 	}
 
 	#s3 .carousel-inner {
-		width: 40%;
+		width: 70%;
 		margin: auto;
 	}
 
@@ -149,205 +170,3 @@
   }
 }
 
-// @media (max-width: 991px) {
-// 	header {
-// 		.navbar-nav a:hover {
-// 			border: 0;
-// 		}
-
-// 		.container {
-// 			max-width: 100%;
-// 			padding: 1rem 1.8rem;
-// 		}
-
-// 		.darck {
-// 			background-color: rgba(0, 0, 0, 0.76) !important;
-// 		}
-// 	}
-
-// 	#s1 {
-// 		.container {
-// 			padding: 10rem 0.9375rem 1.75rem 0.9375rem;
-// 		}
-
-// 		h1 {
-// 			font-size: 2rem;
-// 			margin-bottom: 30px;
-// 		}
-// 		h2 {
-// 			font-size: 1.5rem;
-// 		}
-
-// 		div img {
-// 			margin-top: 5rem;
-// 		}
-// 	}
-
-// 	#s6 .container {
-// 		padding: 3rem 0.9375rem 3rem 0.9375rem;
-// 	}
-
-// 	#s6 .container {
-// 		flex-direction: column;
-// 		align-items: center;
-// 		text-align: center;
-// 	}
-
-// 	#s6 .column-1 {
-// 		width: 100%;
-// 		max-width: 100%;
-// 	}
-
-// 	#s6 .column-1 h3 {
-// 		margin-bottom: 1rem;
-// 	}
-
-// 	#s6 .column-1 p {
-// 		margin-bottom: 1rem;
-// 	}
-
-// 	#s6 .column-1 form {
-// 		margin-top: 0;
-// 		max-width: 21.75rem;
-// 		align-self: center;
-// 	}
-
-// 	#s6 .column-1 .btn {
-// 		margin-right: 15px;
-// 		margin-left: 15px;
-// 	}
-
-// 	#s6 .column-2 .wrapper {
-// 		margin-left: -20px;
-// 	}
-// }
-
-// @media (max-width: 817px) {
-// 	#s3 .row .col:nth-child(3) {
-// 		display: none;
-// 	}
-
-// 	#s3 .row .col:nth-child(4) {
-// 		display: none;
-// 	}
-
-// 	#s3 .carousel .carousel-control-next {
-// 		right: -1.5rem;
-// 	}
-
-// 	#s3 .carousel .carousel-control-prev {
-// 		left: -1.4375rem;
-// 	}
-// }
-
-// @media (max-width: 770px) {
-// 	#s2 p:nth-child(4) {
-// 		margin-bottom: 1rem;
-// 	}
-
-// 	#s2 img:nth-child(5) {
-// 		margin-bottom: 1rem;
-// 	}
-
-// 	#s2 .container img:nth-child(7) {
-// 		display: none;
-// 	}
-
-// 	#s2 .container img:nth-child(8) {
-// 		display: flex;
-// 	}
-
-// 	#s2 ul {
-// 		display: flex;
-// 		flex-direction: column;
-// 		width: 14.125rem;
-// 		text-align: left;
-// 		margin: auto;
-// 		list-style-type: none;
-
-// 		li {
-// 			display: flex;
-// 		}
-
-// 		li:before {
-// 			width: 0.9375rem;
-// 			height: 0.9375rem;
-// 			content: url("../img/Forma7.png");
-// 			margin-right: 0.625rem;
-// 			margin-top: -3px;
-// 			align-self: center;
-// 		}
-// 	}
-// }
-
-// @media (max-width: 760px) {
-// 	#s6 .column-2 .wrapper {
-// 		margin-left: -3.4375rem;
-// 	}
-// }
-
-// @media (max-width: 629px) {
-// 	#s3 .row .col:nth-child(2) {
-// 		display: none;
-// 	}
-
-// 	#s3 .col {
-// 		max-width: 50%;
-// 		margin: auto;
-// 	}
-
-// 	#s3 .carousel .carousel-control-next {
-// 		right: 51px;
-// 	}
-
-// 	#s3 .carousel .carousel-control-prev {
-// 		left: 51px;
-// 	}
-// }
-
-// @media (max-width: 575px) {
-// 	header .collapse.show {
-// 		padding: 0 0.9375rem;
-// 	}
-// }
-
-// @media (max-width: 521px) {
-// 	#s6 img {
-// 		display: flex;
-// 		margin-top: 3rem;
-// 		margin-bottom: -3rem;
-// 	}
-// 	#s6 .column-2 {
-// 		width: 100%;
-// 		padding: 0;
-
-// 		.wrapper {
-// 			background-image: none;
-// 			padding: 0;
-// 			margin-left: 0;
-// 			width: 100%;
-
-// 			p:first-child {
-// 				font-size: 1.5rem;
-// 			}
-
-// 			p:nth-child(2) {
-// 				font-size: 3.5rem;
-// 			}
-// 		}
-// 	}
-// }
-
-// @media (max-width: 521px) {
-// 	.changeColor header,
-// 	#contact header {
-// 		background-color: transparent;
-// 		color: #fff;
-// 	}
-// 	.changeColor header nav a:hover,
-// 	.changeColor header nav a.pd,
-// 	#contact header nav a:hover,
-// 	#contact header nav a.pd {
-// 		border-color: #fff;
-// 	}
-// }
