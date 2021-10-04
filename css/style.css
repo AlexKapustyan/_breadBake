@@ -633,7 +633,6 @@ header .navbar-nav a:hover {
   height: 1.25rem;
   margin-top: 0.125rem;
   border: 1px solid black;
-  -webkit-appearance: none;
 }
 
 #s6 .column-1 .form-check-label {
@@ -864,6 +863,33 @@ footer .col div:nth-child(3) {
 
 footer .col a {
   margin-right: 13px;
+}
+
+footer .col .twitter {
+  width: 27px;
+  height: 27px;
+  background-image: url("../img/Twitter%20icon.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+footer .col .insta {
+  width: 27px;
+  height: 27px;
+  background-image: url("../img/Insta%20icon.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+footer .col .fb {
+  width: 27px;
+  height: 27px;
+  background-image: url("../img/FB%20icon.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 
 footer .col:last-child a {

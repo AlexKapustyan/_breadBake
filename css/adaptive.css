@@ -8,6 +8,9 @@
         -ms-flex-align: center;
             align-items: center;
   }
+  #s6 .col-7 {
+    max-width: 95%;
+  }
   #s6 .column-1 h3,
   #s6 .column-1 p {
     text-align: center;
@@ -29,6 +32,12 @@
 }
 
 @media (max-width: 991px) {
+  #s1 h1 {
+    font-size: 2rem;
+  }
+  #s1 h2 {
+    font-size: 1.5rem;
+  }
   #s2 .container img:nth-child(7) {
     display: none;
   }
@@ -111,11 +120,17 @@
 }
 
 @media (max-width: 576px) {
+  #s1 h1 {
+    font-size: 1.5rem;
+  }
+  #s1 h2 {
+    font-size: 1rem;
+  }
   #s3 .row .col:nth-child(2) {
     display: none;
   }
   #s3 .carousel-inner {
-    width: 40%;
+    width: 70%;
     margin: auto;
   }
   #s3 #carousel .carousel-control-next {
