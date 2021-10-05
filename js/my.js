@@ -34,13 +34,8 @@ $(document).ready(function () {
 		}
 		var widthWind = $(this).width();
 		if (widthWind <= 991) {
-			$("header .container").css({ "padding": "1rem 1.8rem" });
-			
+			$("header .container").css({ "padding": "1rem 1.8rem" });			
 		}
 	}
-
-
-
-
 });
 

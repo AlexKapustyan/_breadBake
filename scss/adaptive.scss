@@ -18,9 +18,8 @@
 			form,
 			.but {
 				margin: auto;
+				margin-bottom: 2rem;
 			}
-
-		
 
 			.btn:first-child {
 				padding-left: 1.5rem;
@@ -30,6 +29,12 @@
 
 		.column-2 .wrapper {
 			background-size: cover;
+			width: 500px;
+			margin: auto;
+		}
+
+		.col-5 {
+			max-width: 100%;
 		}
 	}
 }
@@ -80,17 +85,26 @@
 		}
 	}
 
+	#s3 .carousel-inner {
+		width: 80%;
+		overflow: hidden;
+		margin: auto;
+	}
+
 	#s3 .row .col:nth-child(4) {
 		display: none;
 	}
+
 	#s3 .row .col:nth-child(3) {
 		display: none;
 	}
+
 	#s3 #carousel .carousel-control-next {
-		right: -1rem;
+		right: 0rem !important;
 	}
+
 	#s3 #carousel .carousel-control-prev {
-		left: -1rem;
+		left: 0rem !important;
 	}
 }
 
@@ -108,18 +122,69 @@
 		margin-top: 2rem;
 	}
 
+	#s2 h3 {
+		font-size: 1.5rem;
+	}
+
+	#s3 .container {
+		padding: 3rem 0.9375rem 2rem 0.9375rem;
+	}
+
+	#s3 h3 {
+		font-size: 1.5rem;
+	}
+
+	#s3 #carousel .carousel-indicators {
+		top: 18rem;
+	}
+
+	#s3 .text {
+		margin-top: 3.5rem;
+	}
+
+	#s3 .btn {
+		margin-top: 1.5rem;
+	}
+
+	#s4 h3 {
+		font-size: 1.5rem;
+	}
+
+	#s4 p:nth-child(3) {
+		margin-bottom: 1.3rem;
+	}
+
+	#s4 .partners {
+		margin-top: 2.2rem;
+	}
+
+	#s5 .container {
+		padding: 2.5rem 0.9375rem 2.8125rem 0.9375rem;
+	}
+
+	#s5 h3 {
+		font-size: 1.5rem;
+	}
+
+	#s5 a {
+		margin-top: 1.4rem;
+	}
+
 	#s6 .container {
-		padding: 4.6rem 0.5rem 0 0.5rem;
+		padding: 2.6rem 0.5rem 0 0.5rem;
 	}
 
 	#s6 .column-2 .wrapper {
 		background-image: none;
 	}
 
-	#s6 img {
-		display: flex;
-		margin-top: 2rem;
-		margin-bottom: -2rem;
+	#s6 .frame1 {
+		width: 300px;
+		height: 41px;
+		background-image: url("../img/Frame1.png");
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
 	}
 
 	#s6 .column-2 .wrapper p:nth-child(2) {
@@ -128,6 +193,10 @@
 }
 
 @media (max-width: 576px) {
+	#s1 .container {
+		padding: 6rem 0.9375rem 1.75rem 0.9375rem;
+	}
+
 	#s1 h1 {
 		font-size: 1.5rem;
 	}
@@ -136,9 +205,29 @@
 		font-size: 1rem;
 	}
 
+	#s1 p:nth-child(4) {
+		margin-bottom: 1.4rem;
+	}
+
 	#s1 .btn {
 		margin-bottom: 1rem;
-  }
+	}
+
+	#s1 div a {
+		margin-top: 0.5rem;
+	}
+
+	#s2 .container {
+		padding: 1.9rem 0.9375rem 1.75rem 0.9375rem;
+	}
+
+	#s3 .container {
+		padding: 3rem 0.9375rem 2rem 0.9375rem;
+	}
+
+	#s3 h3 {
+		margin-bottom: 1rem;
+	}
 
 	#s3 .row .col:nth-child(2) {
 		display: none;
@@ -157,8 +246,29 @@
 		left: 2rem;
 	}
 
+	#s3 #carousel .carousel-indicators {
+		top: 16rem;
+	}
+
+	#s4 .container {
+		padding: 1.5rem 0.9375rem 1.5rem 0.9375rem;
+	}
+
+	#s5 .container {
+		padding: 1.5rem 0.9375rem 1.5rem 0.9375rem;
+	}
+
+	#s6 .container {
+		padding: 1.5rem 0.5rem 0 0.5rem;
+	}
+
 	#s6 .column-1 .but {
 		flex-direction: column;
+	}
+	#s6 .column-2 .wrapper {
+		background-size: cover;
+		width: 100%;
+		margin: auto;
 	}
 
 	#s6 .column-2 .wrapper p:first-child {
