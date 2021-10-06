@@ -5,7 +5,6 @@ html {
   height: 100%;
   font-family: "Nunito Regular", sans-serif;
   color: black;
-  background-color: black;
 }
 
 header {
@@ -15,72 +14,54 @@ header {
   z-index: 10;
 }
 
-header .container {
-  background: rgba(0, 0, 0, 0);
+header .navbar {
   max-width: 1170px;
-  padding: 3.2rem 0.9375rem;
-  letter-spacing: 0.01rem;
-}
-
-header .container-fluid {
-  padding-right: 10px;
-}
-
-header .navbar-light .navbar-brand {
-  font-family: "Kaushan Script";
-  font-size: 2.25rem;
-  color: white !important;
-}
-
-header .darck {
-  background-color: rgba(0, 0, 0, 0.76) !important;
+  margin: auto;
+  padding: 3.2rem 1.58rem;
 }
 
 header .navbar-collapse {
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
 }
 
-header .navbar-nav {
-  text-align: right;
-  font-family: "Nunito";
-  font-size: 1.125rem;
-  -webkit-box-align: self-end;
-      -ms-flex-align: self-end;
-          align-items: self-end;
+header .navbar-brand {
+  font-family: "Kaushan Script";
+  font-size: 2.25rem;
+  color: white;
 }
 
-header .navbar-light .navbar-nav .nav-link {
-  color: white !important;
-}
-
-header .navbar-light .navbar-nav .active > .nav-link,
-header .navbar-light .navbar-nav .nav-link.active,
-header .navbar-light .navbar-nav .nav-link.show,
-header .navbar-light .navbar-nav .show > .nav-link {
-  color: rgba(0, 0, 0, 0.9);
-  border-bottom: 0.125rem solid white !important;
-}
-
-header .navbar-light .navbar-toggler-icon {
+header .navbar-toggler-icon {
   background-image: url("../img/burg.svg");
 }
 
+header .darck {
+  background-color: rgba(0, 0, 0, 0.85) !important;
+}
+
 header .nav-item {
+  display: table;
   font-size: 1.125rem;
   height: 2.5rem;
 }
 
-header .navbar-nav a {
-  margin-left: 1.67rem;
-  padding: 0;
-  line-height: 2.5rem;
+header .nav-item .active,
+header .nav-itema:hover {
+  border-bottom: 0.125rem solid white;
 }
 
-header .navbar-nav a.active,
-header .navbar-nav a:hover {
-  border-bottom: 0.125rem solid white !important;
+header .nav-link {
+  text-align: right;
+  font-family: "Nunito";
+  font-size: 1.125rem;
+  -webkit-box-align: self-end;
+  -ms-flex-align: self-end;
+  align-items: self-end;
+  padding: 0;
+  line-height: 2.5rem;
+  color: #fff;
+  margin-left: 1.67rem;
 }
 
 #s1 {

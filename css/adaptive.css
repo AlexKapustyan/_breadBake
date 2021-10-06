@@ -9,7 +9,7 @@
             align-items: center;
   }
   #s6 .col-7 {
-    max-width: 95%;
+    width: 100%;
   }
   #s6 .column-1 h3,
   #s6 .column-1 p {
@@ -19,6 +19,7 @@
   #s6 .column-1 .but {
     margin: auto;
     margin-bottom: 2rem;
+    width: 100%;
   }
   #s6 .column-1 .btn:first-child {
     padding-left: 1.5rem;
@@ -26,7 +27,7 @@
   }
   #s6 .column-2 .wrapper {
     background-size: cover;
-    width: 500px;
+    width: 95%;
     margin: auto;
   }
   #s6 .col-5 {
@@ -35,6 +36,17 @@
 }
 
 @media (max-width: 991px) {
+  .navbar {
+    padding: 1rem 1.8rem !important;
+  }
+  .nav-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+  }
   #s1 h1 {
     font-size: 2rem;
   }
@@ -170,7 +182,7 @@
 
 @media (max-width: 576px) {
   #s1 .container {
-    padding: 6rem 0.9375rem 1.75rem 0.9375rem;
+    padding: 8rem 0.9375rem 1.75rem 0.9375rem;
   }
   #s1 h1 {
     font-size: 1.5rem;
@@ -226,6 +238,7 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    width: 50%;
   }
   #s6 .column-2 .wrapper {
     background-size: cover;

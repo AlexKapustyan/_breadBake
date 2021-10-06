@@ -8,7 +8,7 @@ html {
 	height: 100%;
 	font-family: "Nunito Regular", sans-serif;
 	color: black;
-	background-color: rgb(0, 0, 0);
+	//background-color: rgb(0, 0, 0);
 }
 
 header {
@@ -17,84 +17,127 @@ header {
 	left: 0;
 	z-index: 10;
 
-	.container {
-		// padding: 4.0625rem 0;
-		background: rgba(0, 0, 0, 0);
+	.navbar {
 		max-width: 1170px;
-		padding: 3.2rem 0.9375rem;
-		letter-spacing: 0.01rem;
-	}
-
-	.container-fluid {
-		padding-right: 10px;
-	}
-
-	.navbar-light .navbar-brand {
-		font-family: "Kaushan Script";
-		font-size: 2.25rem;
-		color: white !important;
-		//letter-spacing: 0.125rem;
-	}
-
-	.darck {
-		background-color: rgba(0, 0, 0, 0.76) !important;
+		margin: auto;
+		padding: 3.2rem 1.58rem;
 	}
 
 	.navbar-collapse {
-		justify-content: flex-end;
+		flex-grow: 0;
 	}
 
-	.navbar-nav {
-		text-align: right;
-		font-family: "Nunito";
-		font-size: 1.125rem;
-		align-items: self-end;
+	.navbar-brand {
+		font-family: "Kaushan Script";
+		font-size: 2.25rem;
+		color: white;
 	}
 
-	.navbar-light .navbar-nav .nav-link {
-		color: rgba(255, 255, 255, 1) !important;
-	}
-
-	.navbar-light .navbar-nav .active > .nav-link,
-	.navbar-light .navbar-nav .nav-link.active,
-	.navbar-light .navbar-nav .nav-link.show,
-	.navbar-light .navbar-nav .show > .nav-link {
-		color: rgba(0, 0, 0, 0.9);
-		border-bottom: 0.125rem solid white !important;
-	}
-
-	.navbar-light .navbar-toggler-icon {
+	.navbar-toggler-icon {
 		background-image: url("../img/burg.svg");
 	}
 
+	.darck {
+		background-color: rgba(0, 0, 0, 0.85)  !important;
+	}
+
 	.nav-item {
+		display: table;		
 		font-size: 1.125rem;
 		height: 2.5rem;
 	}
 
-	// .navbar-expand-lg .navbar-nav .nav-link {
-	// 	// padding-right: 0.1rem;
-	// 	// padding-left: 0.98rem;
-	// }
+	.nav-item .active,
+	.nav-itema:hover {
+		border-bottom: 0.125rem solid white;
+	}
 
-	.navbar-nav a {
-		margin-left: 1.67rem;
-		//margin-top: 0.4rem;
+	.nav-link {		
+		text-align: right;
+		font-family: "Nunito";
+		font-size: 1.125rem;
+		-webkit-box-align: self-end;
+		-ms-flex-align: self-end;
+		align-items: self-end;
 		padding: 0;
 		line-height: 2.5rem;
-		//border-bottom: 0.125rem solid transparent;
+		color: #fff;
+		margin-left: 1.67rem;
 	}
 
-	.navbar-nav a.active,
-	.navbar-nav a:hover {
-		border-bottom: 0.125rem solid white !important;
-	}
+	// .container {
+	// 	// padding: 4.0625rem 0;
+	// 	background: rgba(0, 0, 0, 0);
+	// 	max-width: 1170px;
+	// 	padding: 3.2rem 0.9375rem;
+	// 	letter-spacing: 0.01rem;
+	// }
+
+	// .container-fluid {
+	// 	padding-right: 10px;
+	// }
+
+	// .navbar-light .navbar-brand {
+	// 	font-family: "Kaushan Script";
+	// 	font-size: 2.25rem;
+	// 	color: white !important;
+	// 	//letter-spacing: 0.125rem;
+	// }
+
+	// .darck {
+	// 	background-color: rgba(0, 0, 0, 0.76) !important;
+	// }
+
+	// .navbar-collapse {
+	// 	justify-content: flex-end;
+	// }
+
+	// .navbar-nav {
+	// 	text-align: right;
+	// 	font-family: "Nunito";
+	// 	font-size: 1.125rem;
+	// 	align-items: self-end;
+	// }
+
+	// .navbar-light .navbar-nav .nav-link {
+	// 	color: rgba(255, 255, 255, 1) !important;
+	// }
+
+	// .navbar-light .navbar-nav .active > .nav-link,
+	// .navbar-light .navbar-nav .nav-link.active,
+	// .navbar-light .navbar-nav .nav-link.show,
+	// .navbar-light .navbar-nav .show > .nav-link {
+	// 	color: rgba(0, 0, 0, 0.9);
+	// 	border-bottom: 0.125rem solid white !important;
+	// }
+
+	// .navbar-light .navbar-toggler-icon {
+	// 	background-image: url("../img/burg.svg");
+	// }
+
+	// .nav-item {
+	// 	font-size: 1.125rem;
+	// 	height: 2.5rem;
+	// }
+
+	// // .navbar-expand-lg .navbar-nav .nav-link {
+	// // 	// padding-right: 0.1rem;
+	// // 	// padding-left: 0.98rem;
+	// // }
+
+	// .navbar-nav a {
+	// 	margin-left: 1.67rem;
+	// 	//margin-top: 0.4rem;
+	// 	padding: 0;
+	// 	line-height: 2.5rem;
+	// 	//border-bottom: 0.125rem solid transparent;
+	// }
+
+	// .navbar-nav a.active,
+	// .navbar-nav a:hover {
+	// 	border-bottom: 0.125rem solid white !important;
+	// }
 }
-
-// main {
-// 	//max-width: 1600px;
-// 	//margin: auto;
-// }
 
 #s1 {
 	background-image: url("../img/s1b.png");
@@ -125,7 +168,6 @@ header {
 		font-size: 2.5rem;
 		margin-top: 0.6rem;
 		letter-spacing: 0.02rem;
-		
 	}
 
 	p {
@@ -429,7 +471,7 @@ header {
 		}
 	}
 
-	a {		
+	a {
 		margin-top: 1.8rem;
 		border: solid white;
 		border-width: 0 4px 4px 0;
@@ -742,8 +784,6 @@ header {
 			padding-top: 2.78rem;
 			padding-bottom: 2.5rem;
 
-
-
 			p:first-child {
 				font-family: "Open Sans SemiBold";
 				font-weight: 600;
@@ -857,7 +897,7 @@ footer {
 			background-position: center center;
 			background-size: cover;
 		}
-		
+
 		.insta {
 			width: 27px;
 			height: 27px;
