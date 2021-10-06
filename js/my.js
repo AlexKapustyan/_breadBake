@@ -23,7 +23,7 @@ $(document).ready(function () {
 		if (50 > scrolled) {
 			$(".navbar").css({ "background": "rgba(0, 0, 0, 0)" });
 			$(".navbar").css({ "max-width": "1170px" });
-			$(".navbar").css({ "padding": "3.4rem 0.9375rem" });
+			$(".navbar").css({ "padding": "3.4rem 1.58rem" });
 		}	
 	}
 });
