@@ -8,8 +8,8 @@
         -ms-flex-align: center;
             align-items: center;
   }
-  #s6 .col-7 {
-    width: 100%;
+  #s6 .container .col-7 {
+    max-width: 98.333333%;
   }
   #s6 .column-1 h3,
   #s6 .column-1 p {
@@ -31,7 +31,7 @@
     margin: auto;
   }
   #s6 .col-5 {
-    max-width: 100%;
+    width: 100%;
   }
 }
 
@@ -233,12 +233,15 @@
   #s6 .container {
     padding: 1.5rem 0.5rem 0 0.5rem;
   }
+  #s6 .column-1 form {
+    margin-bottom: 0.5rem;
+  }
   #s6 .column-1 .but {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    width: 50%;
+    width: 100%;
   }
   #s6 .column-2 .wrapper {
     background-size: cover;
