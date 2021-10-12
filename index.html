@@ -2,446 +2,126 @@
 <html lang="en">
 
 <head>
-	<title>Bootstrap Example</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="keywords" content="Test">
-	<meta name="description" content="Test">
-	<link rel="shortcut icon" href="img/fav.png" type="image/x-icon">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/adaptive.css">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/my.css">
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="10">
-	<header id="header">
-		<nav class="navbar navbar-expand-lg fixed-top justify-content-between">
-			<a class="navbar-brand flex-grow-1" href="#">BakeryBo</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-			  <span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarNav">
-			  <ul class="navbar-nav">
-				 <li class="nav-item">
-					<a class="nav-link active" href="#s1">Home <span class="sr-only">(current)</span></a>
-				 </li>
-				 <li class="nav-item">
-					<a class="nav-link" href="#s2">About</a>
-				 </li>
-				 <li class="nav-item">
-					<a class="nav-link" href="#s3">Prices</a>
-				 </li>
-				 <li class="nav-item">
-					<a class="nav-link" href="#s4">Where to buy</a>
-				 </li>
-				 <li class="nav-item">
-					<a class="nav-link" href="#s5">Bakery</a>
-				 </li>
-				 <li class="nav-item">
-					<a class="nav-link" href="#footer">Contact</a>
-				 </ul>
-			</div>
-		 </nav>
-		<!-- <nav class="navbar fixed-top navbar-expand-lg navbar-light container">
-			<div class="container-fluid">
-				<a class="navbar-brand" href="#">BakeryBo</a>
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-					aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-					<ul class="navbar-nav">
-						<li class="nav-item">
-							<a class="nav-link" href="#s1">Home</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#s2">About</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#s3">Prices</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#s4">Where to buy</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#s5">Bakery</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#footer">Contact</a>
-						</li>
-
-					</ul>
-				</div>
-			</div>
-		</nav> -->
-	</header>
+<body>
+	<header></header>
 	<main>
-		<section id="s1">
-			<div class="container">
-				<h1>New product line from BakeryBo<sup>®</sup></h1>
-				<h2>Whole wheat bread for your health and fitness goals</h2>
-				<p>Gave up bread from your life to stay healthy and fit?</p>
-				<p>What if we say now you can enjoy it daily and get only healthier?</p>
-				<button type="button" class="btn btn-outline-dark">Where to buy</button>
-				<button type="button" class="btn btn-light">Get a coupon</button>
-				<div><a href="#s2"></a></div>
-				<!-- <img src="img/ArrowW.png" alt="Arrow"> -->
-			</div>
-		</section>
-		<section id="s2">
-			<div class="container">
-				<h3>What’s inside?</h3>
-				<p>We are 100% honest about how we bake our bread.</p>
-				<p>BakeryBo bread is a rich source of various antioxidants, vitamins, minerals and fibers.</p>
-				<p>There are no hidden ingredients that could harm your health or contradict your fitness goals in our
-					recipes. </p>
-				<div></div>
-				<ul>
-					<li>Whole wheat flour</li>
-					<li>7 added grains</li>
-					<li>Wheat bran</li>
-					<li>Iodised salt </li>
-					<li>No added white flour</li>
-					<li>No artificial flavors</li>
-					<li>No trans fat</li>
-					<li>No sugar</li>
-				</ul>
-				<img class="w-100" src="img/BagetIllustration.png" alt="Baget Illustration">
-				<img class="w-100" src="img/BagetPic.png" alt="Baget Illustration">
-				<div><a href="#s3"></a></div>
-				<!-- <img src="img/ArrowB.png" alt="Arrow"> -->
-			</div>
-		</section>
-		<section id="s3">
-			<div class="container">
-				<h3>Whole wheat bread line</h3>
-				<div id="carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
-					<ol class="carousel-indicators">
-						<li data-target="#carousel" data-slide-to="0" class="active"></li>
-						<li data-target="#carousel" data-slide-to="1"></li>
-						<li data-target="#carousel" data-slide-to="2"></li>
-					</ol>
-					<div class="carousel-inner">
-						<div class="carousel-item active">
-							<div class="row justify-content-between">
-								<div class="col">
-									<div class="card w-100">
-										<img class="card-img-top" src="img/car1.png" alt="Card image cap">
-										<div class="card-body">
-											<h5 class="card-title">Whole Wheat</h5>
-											<h5 class="card-title">Round</h5>
-											<p class="card-text">270 g | 218 kcal</p>
-											<p class="card-text">$3.79</p>
-										</div>
-									</div>
-								</div>
-								<div class="col">
-									<div class="card w-100">
-										<img class="card-img-top" src="img/car2.png" alt="Card image cap">
-										<div class="card-body">
-											<h5 class="card-title">Whole Wheat</h5>
-											<h5 class="card-title">Square</h5>
-											<p class="card-text">150 g | 211 kcal</p>
-											<p class="card-text">$2.19</p>
-										</div>
-									</div>
-								</div>
-								<div class="col">
-									<div class="card w-100">
-										<img class="card-img-top" src="img/car3.png" alt="Card image cap">
-										<div class="card-body">
-											<h5 class="card-title">Whole Wheat</h5>
-											<h5 class="card-title">Multigrain</h5>
-											<p class="card-text">270 g | 242 kcal</p>
-											<p class="card-text">$4.19</p>
-										</div>
-									</div>
-								</div>
-								<div class="col">
-									<div class="card w-100">
-										<img class="card-img-top" src="img/car4.png" alt="Card image cap">
-										<div class="card-body">
-											<h5 class="card-title">Breakfast Raisin</h5>
-											<h5 class="card-title">Square</h5>
-											<p class="card-text">180 g | 239 kcal</p>
-											<p class="card-text">$3.79</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="carousel-item">
-							<div class="row justify-content-between">
-								<div class="col">
-									<div class="card w-100">
-										<img class="card-img-top" src="img/car1.png" alt="Card image cap">
-										<div class="card-body">
-											<h5 class="card-title">Whole Wheat</h5>
-											<h5 class="card-title">Round</h5>
-											<p class="card-text">270 g | 218 kcal</p>
-											<p class="card-text">$3.79</p>
-										</div>
-									</div>
-								</div>
-								<div class="col">
-									<div class="card w-100">
-										<img class="card-img-top" src="img/car2.png" alt="Card image cap">
-										<div class="card-body">
-											<h5 class="card-title">Whole Wheat</h5>
-											<h5 class="card-title">Square</h5>
-											<p class="card-text">150 g | 211 kcal</p>
-											<p class="card-text">$2.19</p>
-										</div>
-									</div>
-								</div>
-								<div class="col">
-									<div class="card w-100">
-										<img class="card-img-top" src="img/car3.png" alt="Card image cap">
-										<div class="card-body">
-											<h5 class="card-title">Whole Wheat</h5>
-											<h5 class="card-title">Multigrain</h5>
-											<p class="card-text">270 g | 242 kcal</p>
-											<p class="card-text">$4.19</p>
-										</div>
-									</div>
-								</div>
-								<div class="col">
-									<div class="card w-100">
-										<img class="card-img-top" src="img/car4.png" alt="Card image cap">
-										<div class="card-body">
-											<h5 class="card-title">Breakfast Raisin</h5>
-											<h5 class="card-title">Square</h5>
-											<p class="card-text">180 g | 239 kcal</p>
-											<p class="card-text">$3.79</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="carousel-item">
-							<div class="row justify-content-between">
-								<div class="col">
-									<div class="card w-100">
-										<img class="card-img-top" src="img/car1.png" alt="Card image cap">
-										<div class="card-body">
-											<h5 class="card-title">Whole Wheat</h5>
-											<h5 class="card-title">Round</h5>
-											<p class="card-text">270 g | 218 kcal</p>
-											<p class="card-text">$3.79</p>
-										</div>
-									</div>
-								</div>
-								<div class="col">
-									<div class="card w-100">
-										<img class="card-img-top" src="img/car2.png" alt="Card image cap">
-										<div class="card-body">
-											<h5 class="card-title">Whole Wheat</h5>
-											<h5 class="card-title">Square</h5>
-											<p class="card-text">150 g | 211 kcal</p>
-											<p class="card-text">$2.19</p>
-										</div>
-									</div>
-								</div>
-								<div class="col">
-									<div class="card w-100">
-										<img class="card-img-top" src="img/car3.png" alt="Card image cap">
-										<div class="card-body">
-											<h5 class="card-title">Whole Wheat</h5>
-											<h5 class="card-title">Multigrain</h5>
-											<p class="card-text">270 g | 242 kcal</p>
-											<p class="card-text">$4.19</p>
-										</div>
-									</div>
-								</div>
-								<div class="col">
-									<div class="card w-100">
-										<img class="card-img-top" src="img/car4.png" alt="Card image cap">
-										<div class="card-body">
-											<h5 class="card-title">Breakfast Raisin</h5>
-											<h5 class="card-title">Square</h5>
-											<p class="card-text">180 g | 239 kcal</p>
-											<p class="card-text">$3.79</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
+		<section >
+			<div class="form">
+				<div class="description">
+					<div>
+						<img src="img/fountain.png" alt="fountain">
+						<p>Бесплатно подберем<br>решение</p>	
 					</div>
-					<a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
-						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-					</a>
-					<a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
-						<span class="carousel-control-next-icon" aria-hidden="true"></span>
-					</a>
-				</div>
-				<p class="text">Haven’t tried BakeryBo whole wheat bread yet?</p>
-				<p class="text">Get a “Buy 1 get 1 free” coupon and receive 2 loaves for the price of 1.</p>
-				<div class="but">
-					<button type="button" class="btn btn-outline-dark">Where to buy</button>
-					<button type="button" class="btn btn-dark">Get a coupon</button>
-				</div>
-			</div>
-		</section>
-		<section id="s4">
-			<div class="container">
-				<h3>Where to buy</h3>
-				<p>You can find BakeryBo bread in nearly any supermarket in your neighbourhood</p>
-				<p>Our new whole wheat bread line is already on the shelves.</p>
-				<div></div>
-				<div class="partners">
-					<img class="mx-auto" src="img/Winn%20D.png" alt="Winn Dixie">
-					<img class="mx-auto" src="img/Walmart.png" alt="Walmart">
-					<img class="mx-auto" src="img/Walgreens.png" alt="Walgreens">
-					<img class="mx-auto" src="img/Publix.png" alt="Publix">
-					<img class="mx-auto" src="img/Meijer.png" alt="Meijer">
-					<img class="mx-auto" src="img/Fred%20Meyer.png" alt="Fred Meyer">
-					<img class="mx-auto" src="img/Whole%20F.png" alt="Whole Foods">
-					<img class="mx-auto" src="img/Safeway.png" alt="Safeway">
-				</div>
-				<!-- <a href="#s5"><img src="img/ArrowW.png" alt="Arrow"></a> -->
-				<a href="#s5"></a>
-			</div>
-		</section>
-		<section id="s5">
-			<div class="container">
-				<h3>Facts about BakeryBo</h3>
-				<div class="row">
-					<div class="col">
-						<!-- <div><img src="img/Seeds.png" alt=""></div> -->
-						<div class="seeds"></div>
-						<h6>Organic only</h6>
-						<p>We use only organic
-							ingredients for our
-							recipes.</p>
+					<div>
+						<img src="img/employee.png" alt="fountain">
+						<p>Организуем выезд<br> дизайнера на Ваш объект</p>
 					</div>
-					<div class="col">
-						<!-- <div><img src="img/Calendar.png" alt=""></div> -->
-						<div class="calendar"></div>
-						<h6>9 years serving</h6>
-						<p>We’ve been baking
-							bread for 9 years
-							now.</p>
-					</div>
-					<div class="col">
-						<!-- <div><img src="img/Cart.png" alt=""></div> -->
-						<div class="cart"></div>
-						<h6>12 supermarkets</h6>
-						<p>You can find our bread
-							in 12+ well known
-							supermarkets.</p>
-					</div>
-					<div class="col">
-						<!-- <div><img src="img/Bread.png" alt=""></div> -->
-						<div class="bread">
-							<div class="breadItem"></div>
-						</div>
-						<h6>28 products</h6>
-						<p>We offer 18 different
-							kinds of bread and
-							more’s coming.</p>
-					</div>
-					<div class="col">
-						<!-- <div><img src="img/Recycable.png" alt=""></div> -->
-						<div class="recycable"></div>
-						<h6>Recycable bags</h6>
-						<p>We care not only for
-							your health but for
-							the planet too.</p>
-					</div>
-					<div class="col">
-						<!-- <div><img src="img/Rolling.png" alt=""></div> -->
-						<div class="rolling"></div>
-						<h6>Baking classes</h6>
-						<p>We offer group and
-							individual baking
-							classes.</p>
+					<div>
+						<img src="img/clock.png" alt="fountain">
+						<p>Подготовим предложение в<br> течении 24 часов</p>
 					</div>
 				</div>
-				<a href="#footer"></a>
-				<!-- <img src="img/ArrowB.png" alt="Arrow"> -->
-			</div>
-		</section>
-		<section id="s6">
-			<div class="container">
-				<div class="column-1 col-7">
-					<h3>Get a coupon</h3>
-					<p>Haven’t tried our new whole wheat bread? No way!</p>
-					<p>The new product line is already on the shelves of supermarkets in your neighnourhood.
-						Just download a “Buy 1 get 1 free” coupon and give it away at the cash register. You’ll receive 2
-						loaves for the price of 1. Isn’t it great?
-					</p>
-					<p>To download a coupon please type in your e-mail.<br>
-						You don’t have to check the box if you don’t want to receive news from us though.
-					</p>
-					<form>
-						<div class="form-group">
-							<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email *">
-						</div>
-						<div class="form-check">
-							<input type="checkbox" class="form-check-input" id="exampleCheck1">
-							<label class="form-check-label" for="exampleCheck1">I want to receive news about deals and new
-								products.
-							</label>
-						</div>
-					</form>
-					<div class="but">
-						<button type="button" class="btn btn-outline-dark">Where to buy</button>
-						<button type="button" class="btn btn-dark">Download coupon</button>
-					</div>
-				</div>
-				<div class="frame1"></div>
-				<div class="column-2 col-5">
-					<div class="wrapper">
-
-						<p>BUY 1 GET 1</p>
-						<p>FREE</p>
-						<p>Try new</p>
-						<p>BakeryBo</p>
-						<p>whole wheat bread</p>
-						<p>Just grab 2 same loaves on the shelf, give<br>
-							the coupon at the cash register<br>
-							and pay for 1 loaf only.</p>
-					</div>
-				</div>
+				<form action="/my-handling-form-page" method="post">
+					<ul>
+						<li>							
+							<input type="text" id="name" name="user_name" placeholder="Ваше имя">
+						</li>
+						<li>							
+							<input id="tel" name="user_tel" placeholder="+3(000)000-00-00">
+						</li>
+						<li>							
+							<input type="email" id="mail" name="user_mail" placeholder="E-mail (для отправки КП)">
+						</li>
+					</ul>				
+				</form>
+				<button type="submit">Получить консультацию</button>
 			</div>
 		</section>
 	</main>
-	<footer id="footer">
-		<div class="container">
-			<div class="row">
-				<div class="col-8">
-					<p><a href="#">BakeryBo</a></p>
-					<p>® BakeryGo Inc. All rights reserved.</p>
+	<footer class="seiger">
+		<div class="wrapper container">
+			<div class="inner">
+				<div class="logo">
+					<img src="img/logo.svg" alt="logo">
+					<h3>Expert Fun</h3>
 				</div>
-				<div class="col">
-					<div class="row">
-						<div class="col">
-							<p>Follow us</p>
-							<p>Yes, we are social</p>
-							<div>
-								<a href="#" class="twitter"></a>
-								<a href="#" class="insta"></a>
-								<a href="#" class="fb"></a>
-							</div>
-						</div>
-						<div class="col">
-							<p>Contact us</p>
-							<div class="phone"><a href="tel:+797197292919">+79 719 729 29 19</a></div>
-							<div class="phone"><a href="tel:+797197292929">+79 719 729 29 29</a></div>
-							<a href="mailto:bo@bakerybo.com">bo@bakerybo.com</a>
-						</div>
-					</div>
+				<p>Фонтаны нашего производства украшают загородные участки, водоемы, территории отелей, рестораны,
+					санатории, а также городские площади, скверы и парки. Обращайтесь в любое удобное время — мы всегда на
+					связи!</p>
+			</div>
+			<div class="inner">
+				<h3>Наша продукция</h3>
+				<ul>
+					<li>
+						<a href="#">Пешеходные фонтаны</a>
+					</li>
+					<li>
+						<a href="#">Графические фонтаны</a>
+					</li>
+					<li>
+						<a href="#">Интерьерные фонтаны</a>
+					</li>
+					<li>
+						<a href="#">Садовые фонтаны</a>
+					</li>
+					<li>
+						<a href="#">Плавающие фонтаны</a>
+					</li>
+					<li>
+						<a href="">Декоративные фонтаны</a>
+					</li>
+					<li>
+						<a href="#">Сухие фонтаны</a>
+					</li>
+				</ul>
+			</div>
+			<div class="inner">
+				<h3>Recent Posts</h3>
+				<ul>
+					<li> <a href="#">Gallery Post Format</a> </li>
+					<li> <a href="#">Possession of my entire soul</a> </li>
+					<li> <a href="#">Audio Post Format</a> </li>
+					<li> <a href="#">Quote Post Format</a> </li>
+					<li> <a href="#">I sink under the weight of the splendour</a> </li>
+				</ul>
+			</div>
+			<div class="inner contacts">
+				<h3>Наши контакты</h3>
+				<p>г. Киев, ул. Анны Ахматовой 16А, оф. 20</p>
+				<div class="phone">
+					<a href="tel:+380445020122">UA +38 (044) 502 01 22</a>
+					<a href="tel:+74993229627"> RU +7 (499) 322 96 27</a>
+					<a href="tel:+77273123487"> KZ +7 (727) 312 34 87</a>
+				</div>
+				<div>
+					<a href="mailto:info@expertfun.com">info@expertfun.com</a>
+				</div>
+				<div>
+					<a href="#">Карта сайта</a>
 				</div>
 			</div>
 		</div>
+		<div class="social">
+			<p>
+				© Еxpertfun, 2017. Все права защищены. Разработка и поддержка сайта — <a
+					href="https://artjoker.ua/ru/">Artjoker</a>
+			</p>
+			<div class="icon">
+				<a href="#"><img src="img/Email-icon-Pr.svg" alt="mail"></a>
+				<a href="#"><img src="img/facebook (1).svg" alt="fb"></a>
+				<a href="#"><img src="img/google-plus 1.svg" alt="google"></a>
+				<a href="#"><img src="img/linkedin (1).svg" alt="linkedin"></a>
+				<a href="#"><img src="img/twitter (1).svg" alt="twitter"></a>
+			</div>
+		</div>
 	</footer>
-
-	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-	<script src="js/jquery-3.6.0.min.js"></script>
-	<script src="js/my.js"></script>
-
 </body>
 
 </html>
