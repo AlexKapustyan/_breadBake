@@ -40,9 +40,9 @@
     padding: 1rem 1.8rem !important;
   }
   .nav-item {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: end;
